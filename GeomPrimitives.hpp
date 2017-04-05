@@ -171,4 +171,4 @@ class Pyramid : public GeomBody {
 	}
 };
 
-#endif GEOMPRIMITIVES_HPP
+#endif// GEOMPRIMITIVES_HPP
