@@ -8,6 +8,8 @@ Interface for geometric bodies implementations
 
 class GeomBody {
 public:
+	virtual ~GeomBody(){}
+
 	//Get the primitive volume
 	virtual double GetVolume() = 0;
 
@@ -50,4 +52,4 @@ protected:
 	double _height;
 };
 
-#endif GEOMBODY_HPP
+#endif// GEOMBODY_HPP

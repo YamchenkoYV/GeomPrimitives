@@ -115,4 +115,4 @@ private:
 	}
 };
 
-#endif MYLISTS_HPP
+#endif// MYLISTS_HPP
