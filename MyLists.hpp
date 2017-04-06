@@ -26,10 +26,10 @@ public:
 
 	~MyList()
 	{
-		Node* node = head;
-		while (node != NULL) {
-			Node* temp = node;
-			node = node->_next;
+		Node* temp;
+		while (head != NULL) {
+			temp = head;
+			head = head->_next;
 			delete temp;
 		}
 	}
